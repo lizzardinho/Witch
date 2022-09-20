@@ -1,32 +1,130 @@
-canvas{
-	display: block;
-	margin: 10px auto;
-}
-
-p{
-    color:#0b0;
-}
-
-body {
-	background-color: #000;
-	color: #0b0;
-	text-align: center;
-}
-
-p, button {
-	font-family: monospace;
-	display: fixed;
-	width: 600px;
-  top: 180px;
-	left: calc(50% - 300px);
-	position: fixed;
-	z-index: -1;
-}
-
-button {
-  margin-top: 50px;
-  height: 50px;
-  border-color: #0b0;
-  background-color: #000;
-  color: #0b0;
-}
+*{
+	margin: 0;
+	padding: 0;
+  }
+  
+  body{
+	background-color: #131313;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .logo{
+	margin-left: 20px;
+  }
+  
+  .hero-section{
+	width: 90rem;
+	height: 67rem;
+  }
+  
+  nav{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+	margin-left: 58px;
+  }
+  
+  .nav-items{
+	display: flex;
+	list-style-type: none;
+	gap: 65px;
+	margin-top: 30px;
+	margin-left: 100px;
+  }
+  
+  
+  li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	
+  }
+  
+  .connect-wallet{
+	font-size: 18px;
+	color: #5BA300;
+	background-color: #131313;
+	border-radius: 24px;
+	border-color: #5BA300;
+	border-width: thin;
+	text-decoration: none;
+	width: 179px;
+	height: 60px;
+	margin-top: 7px;
+	
+	
+   
+  }
+  
+  .connect-wallet:hover{
+	background-color: #5BA300;
+	color: white;
+  }
+  
+  .export-button{
+	margin-top: 13px; 
+	margin-right: 50px;
+  }
+  
+  .nav-buttons{
+	gap: 28px;
+	margin-right: 77px;
+  }
+  
+  
+  
+  
+  .header{
+	display: flex;
+	margin-top: 106px;
+	margin-left: 89px;
+  }
+  
+  .fa-magnifying-glass{
+	color: #5BA300;
+	margin-top: 30px;
+	margin-left: 310px;
+	
+  }
+  
+  .logo{
+	margin-top: 10px;
+  }
+  
+  h1{
+	color: white;
+	font-size: 55px;
+	font-weight: 400;
+	line-height: 70px;
+  }
+  
+  span{
+	font-weight: bold;
+  }
+  
+  .header p{
+	color: white;
+	font-size: 22px;
+	line-height: 32.78px;
+	margin-top: 42px;
+	margin-bottom: 42px;
+  
+  }
+  
+  .hero-text{
+	width: 380px;
+	height: 646px;
+	margin-right: 154px;
+  }
+  
+  .profiles{
+	margin-bottom: 76px;
+  }
+  
+  .header div:nth-child(2){
+	margin-right: 105px;
+  }
+  .header div:nth-child(3){
+	margin-top: 355px;
+  }
